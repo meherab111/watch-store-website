@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="public/images/website-logo.webp"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>CasioTimeHub</title>
+  </head>
+  <body>
+    <!-- ========== Start HEADER Section ========== -->
+    <header class="section-navbar">
+      <section class="top-text">
+        <div class="head-text--div container flex-box">
+          <div class="head-text">
+            <p>
+              Get 10% off on every purchase | Get Free Delivery on 3 Purchases.
+            </p>
+          </div>
+          <div class="head-shop">
+            <a href="allProducts.html"
+              ><i class="fa-solid fa-arrow-right-long"></i>Shop Now</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="bottom-text">
+        <div class="navbar-div container flex-box">
+          <div class="navbar-left--part flex-box">
+            <a class="navbar-link navbar-logo" href="./index.html"
+              >CasioTimeHub</a
+            >
+            <nav class="navbar">
+              <ul class="nav-menu flex-box">
+                <li class="navbar-item">
+                  <a class="navbar-link" href="./allProducts.html">Products</a>
+                </li>
+                <li class="navbar-item">
+                  <a class="navbar-link" href="./about.html">About</a>
+                </li>
+                <li class="navbar-item">
+                  <a class="navbar-link" href="./contact.html">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="navbar-right--part flex-box">
+            <a class="add-to-cart--btn" id="cardValue" href="addToCart.html">
+              <i class="fa-solid fa-cart-shopping"> 0 </i>
+            </a>
+            <div class="hamburger-icon">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- ========== End HEADER Section ========== -->
+
+    <!-- ========== Start contact Section ========== -->
+
+    <section class="section-contact">
+      <div class="container flex-box flex-column">
+        <div class="section-center--heading">
+          <h1>-Contact us-</h1>
+        </div>
+        <div class="grid grid-two--column">
+          <form action="https://formspree.io/f/myzyeero" method="POST">
+            <div class="contact-left--infos flex-box flex-column">
+              <input
+                type="text"
+                name="username"
+                id="username"
+                required
+                autocomplete="off"
+                placeholder="Enter your full name"
+              />
+
+              <input
+                type="email"
+                name="email"
+                id="email"
+                autocomplete="off"
+                required
+                placeholder="Enter your e-mail address"
+              />
+
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Title of your message"
+              />
+
+              <textarea
+                name="message"
+                id="message"
+                cols="50"
+                rows="10"
+                placeholder="We are here to help you"
+              ></textarea>
+
+              <div>
+                <button type="submit" id="mail-submission" class="btn">
+                  <i class="fa-solid fa-arrow-right"></i>send message
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <div class="contact-right--infos">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116833.97303523067!2d90.33728820410667!3d23.780818635526455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1724941592158!5m2!1sen!2sbd"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End contact Section ========== -->
+
+    <!-- ========== Start Footer Section ========== -->
+
+    <footer class="section-footer">
+      <div class="container grid grid-three--column">
+        <div class="footer-left--infos flex-box flex-column">
+          <h1>CasioTimeHub</h1>
+          <hr />
+          <p>
+            Discover timeless craftsmanship with Casio’s finest watches. Stay
+            connected with us for exclusive deals and the latest collections.
+          </p>
+          <p><span>© 2024 CasioTimeHub.</span> All Rights Reserved.</p>
+        </div>
+        <div class="footer-center--infos flex-box flex-column">
+          <h2>Site Map</h2>
+          <ul class="flex-box flex-column">
+            <li class="navbar-item">
+              <a class="navbar-link" href="./index.html">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="./allProducts.html">Products</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="./about.html">About</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-right--infos flex-box flex-column">
+          <h2>Follow On</h2>
+          <ul class="flex-box flex-column">
+            <li class="navbar-item">
+              <a
+                class="navbar-link"
+                target="_blank"
+                href="https://www.facebook.com/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </li>
+            <li class="navbar-item">
+              <a
+                class="navbar-link"
+                target="_blank"
+                href="https://www.instagram.com/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li class="navbar-item">
+              <a
+                class="navbar-link"
+                target="_blank"
+                href="https://x.com/?lang=en"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+            </li>
+            <li class="navbar-item">
+              <a
+                class="navbar-link"
+                target="_blank"
+                href="https://www.youtube.com/"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ========== End Footer Section ========== -->
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
