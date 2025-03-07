@@ -1,5 +1,5 @@
-import { addProductLsFunc } from "./addProducts";
-import { productQuantityFunc } from "./productQuantity";
+import { addProductLsFunc } from "./addProducts.js";
+import { productQuantityFunc } from "./productQuantity.js";
 
 let productContainer = document.querySelector(".all-products--infos");
 

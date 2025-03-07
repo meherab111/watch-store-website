@@ -1,5 +1,5 @@
-import { getProductsLsFunc } from "./getProducts";
-import { updateCartTotalFunc } from "./updateCartTotal";
+import { getProductsLsFunc } from "./getProducts.js";
+import { updateCartTotalFunc } from "./updateCartTotal.js";
 
 export const incrementDecrementFunc = (event, id, stock, price) => {
   let currentProduct = document.getElementById(`card${id}`);

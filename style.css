@@ -792,8 +792,6 @@ textarea {
 
 /****!  Start Media Query *****/
 
-/* BP1 = 1460  BP2 = 1260*/
-
 @media (width <= 1460px) {
   html {
     font-size: 54.5%;

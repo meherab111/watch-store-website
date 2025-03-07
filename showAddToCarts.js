@@ -1,9 +1,9 @@
-import products from "./api/products.json";
-import { getProductsLsFunc } from "./getProducts";
-import { getQtyPrcFunc } from "./getQtyPrc";
-import { incrementDecrementFunc } from "./incrementDecrement";
-import { removeProductCartFunc } from "./removeProductCart";
-import { updateCartTotalFunc } from "./updateCartTotal";
+import products from "./api/products.json" assert { type: "json" };
+import { getProductsLsFunc } from "./getProducts.js";
+import { getQtyPrcFunc } from "./getQtyPrc.js";
+import { incrementDecrementFunc } from "./incrementDecrement.js";
+import { removeProductCartFunc } from "./removeProductCart.js";
+import { updateCartTotalFunc } from "./updateCartTotal.js";
 
 let cartProducts = getProductsLsFunc();
 

@@ -1,6 +1,6 @@
-import { getProductsLsFunc } from "./getProducts";
-import { toastNotifyFunc } from "./toastNotify";
-import { updateProductLsFunc } from "./updateProducts";
+import { getProductsLsFunc } from "./getProducts.js";
+import { toastNotifyFunc } from "./toastNotify.js";
+import { updateProductLsFunc } from "./updateProducts.js";
 
 getProductsLsFunc();
 

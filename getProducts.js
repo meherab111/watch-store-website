@@ -1,4 +1,4 @@
-import { updateProductLsFunc } from "./updateProducts";
+import { updateProductLsFunc } from "./updateProducts.js";
 
 export const getProductsLsFunc = () => {
   let getProducts = localStorage.getItem("productLS");

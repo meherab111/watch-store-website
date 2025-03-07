@@ -1,4 +1,4 @@
-import { getProductsLsFunc } from "./getProducts";
+import { getProductsLsFunc } from "./getProducts.js";
 
 export const getQtyPrcFunc = (price, id) => {
   let storageData = getProductsLsFunc();

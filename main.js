@@ -1,6 +1,6 @@
 import "./style.css";
 import products from "./api/products.json";
-import { showProductsFunc } from "./productCart";
+import { showProductsFunc } from "./productCart.js";
 
 // header burger icon
 

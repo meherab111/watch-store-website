@@ -1,4 +1,4 @@
-import { getProductsLsFunc } from "./getProducts";
+import { getProductsLsFunc } from "./getProducts.js";
 
 export const updateCartTotalFunc = () => {
   let totalPrice = document.querySelector(".total-price");

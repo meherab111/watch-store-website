@@ -1,7 +1,7 @@
-import { getProductsLsFunc } from "./getProducts";
-import { toastNotifyFunc } from "./toastNotify";
-import { updateCartTotalFunc } from "./updateCartTotal";
-import { updateProductLsFunc } from "./updateProducts";
+import { getProductsLsFunc } from "./getProducts.js";
+import { toastNotifyFunc } from "./toastNotify.js";
+import { updateCartTotalFunc } from "./updateCartTotal.js";
+import { updateProductLsFunc } from "./updateProducts.js";
 
 export const removeProductCartFunc = (id) => {
   let storageData = getProductsLsFunc();
